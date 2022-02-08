@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SOLUCION DE FORMULARIO</title>
+</head>
+<body>
+<h1>Registro</h1>
+<form>
+	<div>
+		<label for="primernombre"> Primer Nombre:</label>
+		<input type="text" name="primernombre" id="primernombre" placeholder="Jesus" required>
+
+        <label for="apellido"> Apellido:</label>
+		<input type="text" name="apellido" id="apellido" placeholder="Carmona Ortiz" required>
+    </div>
+    <div>
+    	<label for="opciongenero1"> Hombre </label>
+    	<input type="radio" name="radioopcion" id="opciongenero1" value="opcion1" required>
+
+        <label for="opciongenero2"> Mujer </label>
+    	<input type="radio" name="radioopcion" id="opciongenero2" value="opcion2" required>
+ 
+        <label for="opciongenero3"> Otro </label>
+    	<input type="radio" name="radioopcion" id="opciongenero3" value="opcion3" required>
+    </div>
+    <div>
+    	<label for="email" >Correo: </label>
+    	<input type="email" name="email" id="email" required placeholder="jesus.carmona@pinkerdigital.com">
+
+	    <label for="clave" >Contraseña: </label>
+    	<input type="password" name="clave" id="clave" pattern=".{6,12}" required title="Tu contraseña debe tener entre 6 y 12 caracteres" >
+    </div>
+    <div>
+    	<label for="Opcionelegida">Cumpleaños</label>
+    	<select name="Opcionelegida" id="Opcionelegida">      
+             
+                <option value="0" selected disabled>Mes</option>
+                <option value="ene">Enero</option>
+                <option value="feb">Febrero</option>
+                <option value="marz">Marzo</option>
+    	</select>
+    	<select name="Opcionelegidadia" id="Opcionelegidadia">  
+                 <option value="0" selected disabled>Dia</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+        </select>
+	    <select name="Opcionelegidaaño" id="Opcionelegidaaño">  
+                 <option value="0" selected disabled>Año</option>
+                <option value="2020">2020</option>
+                <option value="2010">2010</option>
+                <option value="2000">2000</option>
+        </select>
+    </div>
+    <div>
+    	<label for="validar">Acepto las condiciones de servicio</label>
+    	<input type="checkbox" name="validar" id="validar" required>
+    </div>
+<button>Enviar</button>
+</form>
+</body>
+</html>
