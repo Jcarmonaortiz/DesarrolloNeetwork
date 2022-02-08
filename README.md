@@ -1,3 +1,3 @@
-# DesarrolloNeetwork
+# EjerciciosMasterdeDesarrolloWeb
 
-Ejercicios del Master de Desarrollo Web y Creación de Agencia Digital
+Ejercicios del Master de Desarrollo Web y Creación de Agencia Digital de Neetwork Business School
