@@ -1,0 +1,10 @@
+h1 { 
+text-align: center; 
+font-weight: 100;
+text-decoration:underline dotted yellow;
+font-size: 48px;
+}
+p { 
+line-height: 1.5;
+font-size: 18px;
+}
