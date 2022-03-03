@@ -1,0 +1,12 @@
+.tarjeta { 
+    text-align: center;  
+    background-color: yellow;
+    border: 2px black solid;
+    width: 210px;
+    border-radius: 5px;
+}
+img {  
+width: 200px;
+border-radius: 50% ;   
+border: 5px black solid;
+}
